@@ -1,28 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web_pages portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./sytle.css", rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>James's portfolio</h1>
-    <h2>web developer</h2>
-    <hr/>
-    <div class="movie_container">
-        <a href="./public/movie-ranking.html">Movie ranking project</a>
-        <img src="./assets/images/movie-ranking.png"/>
-    </div>
-    <div class="birthday">
-        <a href="./public/birthday-invite.html">birthday inviting card</a>
-        <img src="./assets/images/birthday-invite.png"/>
-    </div>
+  <div class="container py-5">
+    <h1 class="display-4">TZU-HSUAN, CHANG</h1>
+    <p class="lead">Data Engineer, Data Analyst </p>
+    <a href="./cv.pdf" class="btn btn-primary" target="_blank">CV</a>
+
+    <a href="https://github.com/06170102" class="btn btn-primary" target="_blank">
+    Github</a>
     <hr/>
     <div>
-        <a href="./public/about.html">About me</a>
-        <a href="./public/contact.html">Contact me</a>
+      <h2 class="lead">About me</h2>
+      <p>
+          我是一位資料工程師，具備資料科學與商業分析背景。
+
+          就學期間，我建立了資料分析、機器學習與統計建模的基礎能力。
+
+          目前主要專注於現代資料工程技術與資料架構設計，包括 Spark、Kafka、Airflow 以及 Lakehouse 系統。
+
+          目標是打造穩定、可擴展的資料平台，支援高效且可靠的資料驅動應用。
+      </p>
     </div>
-    
+  </div>
+
+
+
+
+
+    <section style="background-color:#F0F2F5;">
+  <div class="container py-5">
+
+    <div class="d-flex justify-content-between position-relative">
+
+      <!-- line -->
+      <div style="
+        position:absolute;
+        top:40px;
+        left:0;
+        width:100%;
+        height:4px;
+        background:#dee2e6;
+        z-index:0;
+      "></div>
+
+      <!-- item -->
+      <div class="text-center" style="z-index:1;">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width:60px;height:60px;margin:auto;">
+          2020
+        </div>
+        <div class="card  mt-3" style="width:200px;">
+          <div class="card-body">
+            <h6 class="card-title">東吳大學資料科學系</h6>
+            <p class="small mb-0">在學期間曾任課堂助教，負責資料爬取、語意分析等工作，為資料分析能力打下基礎。也修習金融方面課程，如程式交易，擴展自身發展方向。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="text-center" style="z-index:1;">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width:60px;height:60px;margin:auto;">
+          2021
+        </div>
+        <div class="card mt-3" style="width:200px;">
+          <div class="card-body">
+            <h6 class="card-title">交通大學管理科學碩士</h6>
+            <p class="small mb-0">進入交通大學就讀，系所導向為商業智慧。習得如: 資料倉儲、BI視覺化分析、機器學習等能力。與此同時，為加強自身分析能力，積極前往統計所修習課程。如:回歸分析和統計計算。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="text-center" style="z-index:1;">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width:60px;height:60px;margin:auto;">
+          2023
+        </div>
+        <div class="card mt-3" style="width:200px;">
+          <div class="card-body">
+            <h6 class="card-title">交通大學畢業</h6>
+            <p class="small mb-0">畢業前，曾修習大數據分析課程和醫療影像辨識，使我對電腦視覺和大數據有更進一步的認知。也對資料工程產生了興趣。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="text-center" style="z-index:1;">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width:60px;height:60px;margin:auto;">
+          2025
+        </div>
+        <div class="card mt-3" style="width:200px;">
+          <div class="card-body">
+            <h6 class="card-title">自我學習</h6>
+            <p class="small mb-0">在深知自身實力不足的情況，且對業界生產環境較陌生，開始自學資料架構、資料系統設計概念。學習許多新技能和知識，如:docker、airflow、lakehouse、linux...等 </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <section class="container py-5">
+
+<h2>Projects</h2>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#p1">
+      Project1
+    </button>
+  </li>
+
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2">
+      Project2
+    </button>
+  </li>
+</ul>
+
+<div class="tab-content mt-4">
+
+<div class="tab-pane fade show active" id="p1">
+  <div class="card p-4">
+    台北市youbike缺車分析
+    <hr/>
+    <p>分析台北市youbike的缺車情況。資料來源: 從台北市公開觀測站api獲取youbike相關資料，加上中央氣象局api抓取天氣資料，搭配各站點地理資訊。
+      以批次的方式注入gcp datalake，經由spark進行data cleaning跟transform，最後套用apiori model視覺化成果，分析台北市youbike各站點缺車的關聯性。
+    </p>
+  </div>
+</div>
+
+<div class="tab-pane fade" id="p2">
+  <div class="card p-4">
+    胸腔 X 光影像疾病偵測
+    <hr/>
+      專案利用深度學習物件偵測模型，從胸腔 X 光影像中辨識異常區域並預測可能的胸腔疾病。
+      主要流程包含：對 DICOM 影像進行 intensity log transformation，使用 simplest color balance 調整影像對比，去除過曝標記並強化影像結構特徵。
+      model採用Faster R-CNN Mask R-CNN 預測影像中異常區域 bounding box以及預測對應疾病類別。
+
+
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
