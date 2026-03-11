@@ -1,21 +1,13 @@
-img{
-    height: 200px;
-    width: 200px;
-    align-content: end;
-}
-a{
-    font-size: large;
-    align-content: center;
+/* about section */
+body{
+font-family: 'Inter', sans-serif;
+color:#2c2c2c;
+line-height:1.6;
 }
 
-.movie_container{
-    display: flex;
-    flex-direction: column;
-    justify-content:baseline;
-}
 
-.birthday{
-    display: flex;
-    flex-direction: column;
-    justify-content:baseline;
+
+p{
+font-size:16px;
+color:#444;
 }
